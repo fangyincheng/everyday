@@ -1,0 +1,495 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.everyday.MainActivity" >
+
+    <HorizontalScrollView 
+        android:id="@+id/HSV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none"
+        android:background="@color/gray_2"
+        android:visibility="invisible">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+         
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_1"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+		            android:id="@+id/month_1"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/JAN"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_2"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_2"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/FEB"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_3"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView
+	            	android:id="@+id/month_3" 
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/MAR"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_4"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_4"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/APR"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_5"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_5"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/MAY"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_6"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	           		android:id="@+id/month_6"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/JUN"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_7"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_7"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/JUL"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_8"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_8"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/AUG"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_9"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView
+	            	android:id="@+id/month_9" 
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/SEP"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_10"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_10"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/OCT"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_11"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_11"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/NOV"/>
+	        
+	        </FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_width="80dp"
+	            android:layout_height="match_parent">
+	            
+		        <ImageView
+		            android:id="@+id/m_12"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:layout_gravity="center_vertical"
+		            android:src="@drawable/bg3"/>
+		        
+		        <TextView 
+	            	android:id="@+id/month_12"
+		            android:layout_width="match_parent"
+		            android:layout_height="40dp"
+		            android:gravity="center"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/white"
+		            android:text="@string/DEC"/>
+	        
+	        </FrameLayout>
+	        
+	    </LinearLayout>
+        
+    </HorizontalScrollView>
+    
+    <HorizontalScrollView 
+        android:id="@+id/HSV_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none"
+        android:background="@color/gray_2"
+        android:visibility="invisible">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+         
+	        <TextView 
+	            android:id="@+id/year_1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	        <TextView 
+	            android:id="@+id/year_2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	        <TextView 
+	            android:id="@+id/year_3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	        <TextView 
+	            android:id="@+id/year_4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	        <TextView 
+	            android:id="@+id/year_5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	        <TextView 
+	            android:id="@+id/year_6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	        <TextView 
+	            android:id="@+id/year_7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:paddingLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:layout_gravity="center_vertical"
+	            android:textColor="@color/gray_1"
+	            android:textSize="20sp"
+	            android:text="2015"/>
+	        
+	    </LinearLayout>
+        
+    </HorizontalScrollView>
+    
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_2">
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"/>
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:background="@color/black"/>
+        
+        <TextView 
+            android:id="@+id/month"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1.3"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="|"
+            android:gravity="center"
+            android:layout_weight="0.1"/>
+        
+        <TextView 
+            android:id="@+id/year"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_weight="0.8"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="|"
+            android:gravity="center"
+            android:layout_weight="0.1"/>
+        
+        <TextView 
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="+"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1.6"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="|"
+            android:gravity="center"
+            android:layout_weight="0.1"/>
+        
+        <ImageView
+            android:id="@+id/toMonth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg"
+            android:layout_weight="1.5"/>
+        
+        <ImageView
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg2"
+            android:layout_weight="0.9"/>
+        
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/LL"/>
+    
+    <TextView 
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/LL"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

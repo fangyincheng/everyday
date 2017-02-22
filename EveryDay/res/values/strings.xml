@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EveryDay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="JAN">JAN</string>
+    <string name="FEB">FEB</string>
+    <string name="MAR">MAR</string>
+    <string name="APR">APR</string>
+    <string name="MAY">MAY</string>
+    <string name="JUN">JUN</string>
+    <string name="JUL">JUL</string>
+    <string name="AUG">AUG</string>
+    <string name="SEP">SEP</string>
+    <string name="OCT">OCT</string>
+    <string name="NOV">NOV</string>
+    <string name="DEC">DEC</string>
+
+</resources>
